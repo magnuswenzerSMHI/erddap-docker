@@ -69,12 +69,12 @@ ERDDAP follows
 
 <startBodyHtml5><![CDATA[ 
 <body>
-<table class="compact nowrap" style="width:100%; background-color:#128CB5;"> 
+<table class="compact nowrap" style="width:100%; background-color:#fff;"> 
   <tr> 
-    <td style="text-align:center; width:80px;"><a rel="bookmark"
-      href="https://www.noaa.gov/"><img 
-      title="National Oceanic and Atmospheric Administration" 
-      src="&erddapUrl;/images/noaab.png" alt="NOAA"
+    <td style="text-align:center; width:310px;"><a rel="bookmark"
+      href="https://www.smhi.se/"><img 
+      title="Swedish Meteorological and Hydrological Institute" 
+      src="&erddapUrl;/images/smhi.png" alt="Swedish Meteorological and Hydrological Institute"
       style="vertical-align:middle;"></a></td> 
     <td style="text-align:left; font-size:x-large; color:#FFFFFF; ">
       <strong>ERDDAP</strong>
@@ -83,14 +83,8 @@ ERDDAP follows
     <td style="text-align:right; font-size:small;"> 
       &loginInfo; &nbsp; &nbsp;
       <br>Brought to you by 
-      <a title="National Oceanic and Atmospheric Administration" rel="bookmark"
-      href="https://www.noaa.gov">NOAA</a>  
-      <a title="National Marine Fisheries Service" rel="bookmark"
-      href="https://www.fisheries.noaa.gov">NMFS</a>  
-      <a title="Southwest Fisheries Science Center" rel="bookmark"
-      href="https://swfsc.noaa.gov">SWFSC</a> 
-      <a title="Environmental Research Division" rel="bookmark"
-      href="https://www.fisheries.noaa.gov/about/environmental-research-division-southwest-fisheries-science-center">ERD</a>  
+      <a title="Swedish Meteorological and Hydrological Institute" rel="bookmark"
+      href="https://www.smhi.se/">SMHI (Sweden)</a>  
       &nbsp; &nbsp;
       </td> 
   </tr> 
