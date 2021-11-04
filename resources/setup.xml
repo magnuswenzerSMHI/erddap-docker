@@ -64,7 +64,7 @@ See the email account settings below.
 Whether or not you set up the email system, all potential email messages 
 are logged to an emailLogYEAR-MONTH.txt file in [bigParentDirectory]/logs/.
 -->
-<emailEverythingTo>your.email@yourInstitution.edu</emailEverythingTo>
+<emailEverythingTo>nobody@example.com</emailEverythingTo>
 <!-- optional: 
 <emailDailyReportsTo>your.boss@yourInstitution.edu</emailDailyReportsTo>
 -->
@@ -109,27 +109,27 @@ and you are using anti-virus software (e.g., McAfee) make sure McAfee
 Anti Virus Standard Protections : 
 Prevent mass mailing worms from sending mail" is un-checked.
 -->
-<emailFromAddress>your.email@yourCompany.com</emailFromAddress>
-<emailUserName>your.email@yourCompany.com</emailUserName>
-<emailPassword>yourPassword</emailPassword> 
+<emailFromAddress>nobody@example.com</emailFromAddress>
+<emailUserName></emailUserName>
+<emailPassword></emailPassword> 
 <emailProperties></emailProperties>
-<emailSmtpHost>your.smtp.host.edu</emailSmtpHost>
-<emailSmtpPort>25</emailSmtpPort>
+<emailSmtpHost></emailSmtpHost>
+<emailSmtpPort></emailSmtpPort>
 
 
 <!-- Information about the ERDDAP administrator is used for the SOS and WMS 
 servers. -->
-<adminInstitution>Your Institution</adminInstitution>
-<adminInstitutionUrl>Your Institution's or Group's Url</adminInstitutionUrl>
-<adminIndividualName>Your Name</adminIndividualName>
-<adminPosition>ERDDAP administrator</adminPosition>
-<adminPhone>+1 999-999-9999</adminPhone>
-<adminAddress>123 Main St.</adminAddress>
-<adminCity>Some Town</adminCity>
-<adminStateOrProvince>CA</adminStateOrProvince>
-<adminPostalCode>99999</adminPostalCode>
-<adminCountry>USA</adminCountry>
-<adminEmail>your.email@yourCompany.com</adminEmail>
+<adminInstitution>ERDDAP Docker Test</adminInstitution>
+<adminInstitutionUrl>https://github.com/anloo/erddap-docker/</adminInstitutionUrl>
+<adminIndividualName>ERDDAP Docker Test</adminIndividualName>
+<adminPosition>Software Engineer</adminPosition>
+<adminPhone>555-555-5555</adminPhone>
+<adminAddress>123 Irrelevant Street</adminAddress>
+<adminCity>Nowhere</adminCity>
+<adminStateOrProvince>VA</adminStateOrProvince>
+<adminPostalCode>12345</adminPostalCode>
+<adminCountry>SE</adminCountry>
+<adminEmail>nobody@example.com</adminEmail>
 
 <!-- Normally, if you have a EDDGridFromErddap or EDDTableFromErddap 
 dataset in your datasets.xml, it will try to subscribe to the remote 
@@ -160,7 +160,7 @@ But if you you think someone is abusing the flag system,
 change this text again, restart ERDDAP, and send
 all of the users of the flag system the relevant new flagKeys
 (see the list in the Daily Report). -->
-<flagKeyKey>CHANGE THIS TO YOUR FAVORITE QUOTE</flagKeyKey>
+<flagKeyKey>ERDDAP RALLY WROOM WROOM</flagKeyKey>
 
 
 <!-- ******** End of MUST change settings.  ******************************** -->
